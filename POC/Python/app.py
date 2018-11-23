@@ -36,7 +36,7 @@ def get_data2():
 
 @app.errorhandler(404)
 def not_found(error):
-    return make_response(jsonify({'error': 'Not found'}), 404)
+    return make_response(jsonify({'error': 'Please add /getUsers or /getRoles to the end of the URL'}), 404)
 
 if __name__ == '__main__':
     app.run(debug=True)
