@@ -1,5 +1,5 @@
 # Python-Microservice
-* Python application built to pull info from padawan database
+* Displays info from padawan database
 ## Requirements: 
 * Padawan must be running on `localhost:3000` (Mongo instance will automatically run on `localhost:3001`)
 ## Installation
